@@ -1,6 +1,7 @@
 # ML307
-ML307 4G模块在 micropython下的使用
-AT指令版ML307R 中国移动
+ML307 4G模块在 micropython下的使用  
+
+AT指令版ML307R 中国移动  
 
 
 
@@ -25,3 +26,4 @@ print(cc)
 1. 在micropython下rxbuf和txbuf一般最大2048，所以要上传大文件可用另外想办法。
 2. 若第一次请求失败返回false，请再发起一次请求
 3. 若有端口号如 http://abc.com:800/aaa 则直接调用即可 mm.get("http://abc.com:800/aaa")
+4. 只存在get与post两个方法
